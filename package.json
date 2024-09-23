@@ -1,0 +1,23 @@
+{
+  "name": "@gouvfr/dsfr-doc-static",
+  "version": "1.0.1",
+  "description": "Site de documentation du Système de Design de l'Etat - DSFR",
+  "repository": "git@github.com:GouvernementFR/dsfr-doc-static.git",
+  "author": "Service d'Information du Gouvernement <maxime.beaugrand@pm.gouv.fr>",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "type": "module",
+  "engines": {
+    "node": ">=18.16.1"
+  },
+  "packageManager": "yarn@4.3.1",
+  "scripts": {
+    "prepare": "husky",
+    "publish": "yarn node .index.js"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "husky": "^9.1.4"
+  }
+}
